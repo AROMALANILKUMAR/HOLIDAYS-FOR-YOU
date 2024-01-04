@@ -11,7 +11,7 @@ export default function Header() {
         
         <span className="font-bold text-xl"><i>𝓗𝓸𝓵𝓲𝓭𝓪𝔂𝓼 𝓯𝓸𝓻 𝓨𝓸𝓾</i></span>
       </Link>
-      <div className="flex  gap- border border-gray-300 rounded-full py-2 px-4 shadow-md shadow-gray-300">
+      <div className="flex  gap-10 border-gray-300 rounded-full py-2 px-4 shadow-md shadow-gray-300">
         <div>𝓐𝓷𝔂 𝔀𝓱𝓮𝓻𝓮</div>
         <div className="border-l border-gray-300"></div>
         <div>𝓐𝓷𝔂 𝔀𝓮𝓮𝓴</div>

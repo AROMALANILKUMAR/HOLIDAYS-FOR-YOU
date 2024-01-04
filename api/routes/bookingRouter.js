@@ -8,8 +8,8 @@ const userAuth = require("../middlewares/userAuth");
 
 
 
-bookingRouter.post("/bookings", userAuth,bookingControllers.bookingPage)
-bookingRouter.get("/bookings", userAuth,bookingControllers.bookedPage)
+bookingRouter.post("/booking", userAuth,bookingControllers.bookingPage)
+bookingRouter.get("/bookings/:id", userAuth,bookingControllers.bookedPage)
 
   
   

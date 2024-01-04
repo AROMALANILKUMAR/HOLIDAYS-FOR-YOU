@@ -9,7 +9,7 @@ const PlaceModel = require("../models/Place.js");
 
 
 const uploadFile = async (req, res) => {
-  console.log(req.files)
+ 
   const uploadedFiles = req.files?.map((file)=>file.filename)
 
 

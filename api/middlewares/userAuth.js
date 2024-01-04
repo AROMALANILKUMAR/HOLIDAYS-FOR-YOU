@@ -7,7 +7,7 @@ const jwtSecret =process.env.JWT_SECRET;
 console.log(jwtSecret);
 module.exports=async (req,res,next)=>{
     try {
-        // console.log(req.headers);
+        
         if(!req.headers.authorization){
           throw Error("no token")
         }
